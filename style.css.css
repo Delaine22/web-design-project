@@ -1,0 +1,284 @@
+body{
+font-family: Cinzel ;
+background-color: gray;
+border: 0;
+padding: 0;
+}
+
+
+nav{
+  
+display: flex;
+height: 80px;
+width: 100%;
+background-color: #01282e;
+align-items: center;
+justify-content: space-between;
+padding: 0 50px 0 100px;
+flex-wrap: wrap;
+
+}
+
+nav .logo{
+  color: aliceblue;
+  font-size: 35px;
+  font-weight: 600px;
+}
+
+nav ul{
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+margin-right: 20%;
+}
+
+nav ul li{
+    margin: 0 5px;
+}
+nav ul li a{
+ color: white;
+ text-decoration: none;
+ font-size: 18px;
+ font-weight: 500;
+ padding: 8px 15px;
+ letter-spacing: 1px;
+ transition: all  0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover{
+    background-color: gray;
+}
+nav .menu-btn i{
+color: #fff;
+cursor: pointer;
+display: none;
+}
+
+section{
+min-height: 70vh;
+
+}
+
+#home{
+  
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/02/08/57/background-texture-2110722__340.jpg);
+  background-repeat: no repeat;
+  text-align: center;
+  color: white;
+
+  
+}
+
+  
+#about{
+background-color: black;
+color: wheat;
+
+display: flex;
+flex-direction: row;
+}
+
+#about img{
+width: 400px;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 25px;
+
+}
+
+
+
+#about p{
+margin-left: 30%;
+margin-right: 10%;
+max-width: 50%;
+margin-top: 40px;
+
+
+}
+
+
+
+
+
+#education{
+  background-color: #01282e;
+  color:white;
+  text-align: center;
+  
+  
+  
+}
+
+main.cards{
+display: flex;
+padding: 32px;
+
+}
+
+main.cards section.card{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+background-color:black;
+padding: 1rem 1.5rem;
+margin-left: 9%;
+border-style: solid;
+width: 300px;
+height: 150px;
+}
+
+main.cards section.card .icon {
+width: 64px;
+height: 64px;
+}
+
+main.cards section.card img{
+width: 100%;
+
+}
+
+
+
+
+#experiences{
+  background-color: #01282e;
+  color: white;
+}
+
+
+
+
+main.columns{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 8%;
+  
+  justify-content: space-between;
+
+  
+}
+
+main.columns .column1{
+  max-width: 35%;
+}
+main.columns .column2{
+max-width: 35%;
+margin-right: 8%;
+
+}
+main.columns .column2 img{
+height: 150px;
+width: 150px;
+
+}
+main.columns .column1 img{
+height: 150px;
+width: 150px;
+
+}
+
+#interest{
+  background-color: dimgray;
+}
+
+#contact{
+background-color: black
+}
+#contact article img{
+width: 20px;
+height: 20px;
+}
+
+
+.container{
+width: 1150px;
+padding: 20px;
+align-items: center;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+}
+.container .card{
+  position: relative;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  background-color: #01282e;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.container .card img{
+transition: 0.5s;
+width: 90px;
+height: 90px;
+}
+
+.container .card h4{
+font-size: 2rem;
+color: white;
+}
+
+.container .card .content{
+  padding: 20px;
+  text-align: center;
+}
+.container .card .content p{
+  color: white;
+  transition: 0.5s;
+}
+.container .card .content a{
+position: relative;
+
+padding: 10px 20px;
+background-color: #000;
+color: #fff;
+border-radius: 5px;
+text-decoration: none;
+transition: 0.5s;
+outline: none;
+margin-top: 20px;
+
+}
+
+.container .card:hover{
+background-color: #dc2e69;
+color: white;
+margin-top: -30px;
+box-shadow: 2px 20px 25px #dc2e685d;
+border-color: #dc2e69;
+
+}
+.container .card:hover img{
+  filter: invert(1);
+}
+.container .card:hover .content p{
+ color: white;
+}
+.container .card:hover .content a{
+  color: black;
+  background-color: white;
+}
+
+#skills{
+background-color:black;
+color: white;
+align-items: center;
+}
+
+#demo{
+  margin-top: 30px;
+  width: 600px;
+  height: 600px;
+  margin-left: 31%;
+}
